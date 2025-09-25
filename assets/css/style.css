@@ -1,15 +1,201 @@
 /* IMPOSTAZIONI GENERALI */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+  margin: 0.5em 0; /* 1em sopra e sotto, 0 dx e sx */
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.75em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+p {
+  margin: 0.25em 0;
+}
+
+ol,
+ul {
+  padding-left: 2em;
+}
+
+ul {
+  list-style-type: disc;
+}
+
+ol {
+  list-style-type: decimal;
+}
+
+table {
+  margin: 1em 0;
+}
+
+body {
+  font-family: Poppins;
+  font-weight: 250;
+  font-style: normal;
+  background-image: url(../img/sfondo.png);
+}
 
 /* HEADER */
+header {
+  text-align: center;
+  width: 72%;
+  padding: 0 20px;
+  color: white;
+  background-color: rgb(18, 122, 153);
+  margin: 30px 40px 30px 40px;
+}
+
+header img {
+  margin-top: 20px;
+}
+header p {
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 15px;
+  padding: 10px;
+}
+
+header li {
+  list-style-type: none;
+  margin: auto;
+  padding-right: 40px;
+}
+
+header nav a {
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+  text-decoration: none;
+  line-height: 1.2;
+  list-style-type: none;
+}
 
 /* MAIN */
-
+main {
+  width: 81%;
+  color: black;
+  background-color: white;
+  margin: auto;
+  border: solid 1px gray;
+}
 /* ELEMENTI NEL MAIN - ARTICLE */
+article h1,
+h2,
+p {
+  margin-top: 10px;
+  padding-top: 10px;
+  text-align: left;
+  padding: 5%;
+}
 
+li {
+  margin-left: 15px;
+  margin-right: 10px;
+  list-style-type: disc;
+  line-height: 1.8em;
+}
+
+code {
+  background-color: lightgray;
+  border-radius: 3px;
+  border: 0.5px solid black;
+}
+strong {
+  color: rgb(158, 19, 101);
+}
+
+article h2 {
+  font-size: 1em;
+  font-style: normal;
+}
 /* TABELLE */
+caption {
+  font-style: italic;
+  font-weight: bold;
+}
+table {
+  width: 90%;
+  border-collapse: collapse;
+  text-align: center;
+  margin: auto;
+  border-bottom: 2px solid #0077b6;
+}
 
+table th {
+  background: #0077b6;
+  color: white;
+  padding: 10px;
+}
+
+table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
 /* FORM */
-
+.novita {
+  width: 76%;
+  color: white;
+  background-color: rgb(8, 75, 90);
+  margin-top: 30px;
+  margin-left: 40px;
+  margin-bottom: 30px;
+  border: solid 1px rgb(224, 237, 228);
+  padding: 10px;
+}
 /* ELEMENTI NELL' ASIDE */
+iframe {
+  border-radius: 25px;
+  margin: 30px;
+}
 
+aside div {
+  text-align: left;
+  width: 72%;
+  padding: 10px 20px;
+  color: black;
+  background-color: gray;
+  margin: 30px 40px 30px 40px;
+}
 /* FOOTER */
+footer {
+  width: 76%;
+  color: white;
+  background-color: rgb(8, 75, 90);
+  margin-top: 30px;
+  margin-left: 40px;
+  margin-bottom: 30px;
+  border: solid 1px rgb(224, 237, 228);
+  padding: 10px;
+}
+footer p {
+  text-align: center;
+  margin: 10;
+}
+
+footer address {
+  text-align: center;
+  margin: 10px;
+}
+
+footer address a {
+  color: purple;
+  font-weight: 400;
+}
